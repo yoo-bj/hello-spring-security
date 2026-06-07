@@ -60,4 +60,7 @@
     </div>
 </div>
 </body>
+<footer>
+    <p th:text="${'실습 수행 일시: ' + #temporals.format(#temporals.createNow(), 'yyyy년 MM월 dd일 HH:mm:ss') + '  │  학번: 2371466  │  성명: 유범준'}"></p>
+</footer>
 </html>
